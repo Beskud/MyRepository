@@ -1,0 +1,71 @@
+.container {
+    margin-top: 10%;
+}
+
+body {
+
+
+    background-color: #333;
+}
+
+.nav_livk {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.registration-button {
+
+    width: 100%;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 20px;
+    border-color: teal;
+    cursor: pointer;
+    background-color: teal;
+    font-family: 'Trebuchet MS';
+    font-weight: 700;
+    font-size: medium;
+}
+
+.default-input-registration {
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 20px 15px;
+    border: none;
+    margin-bottom: 10px;
+    width: 93%;
+
+}
+
+.position-registr {
+
+    display: grid;
+    margin: 0 auto;
+    width: 30%;
+
+}
+
+.registration-button:hover {
+
+    transition: background-color .3s linear;
+    background-color: rgb(6, 98, 98);
+}
+
+.default-input-registration:hover {
+
+    transition: background-color .3s linear;
+    background-color: gray
+}
+
+
+.default-input-registration:focus {
+    border: none;
+}
+
+.message {
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+
